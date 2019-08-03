@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html --no-cache",
     "typecheck": "tsc --noEmit",
-    "build": "npm run typecheck && parcel build src/index.html && cp netlify/_redirects dist"
+    "build": "npm run typecheck && parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
