@@ -22,8 +22,9 @@ function App() {
   const [active, setActive] = useState(-1)
 
   const styles = useMemo(() => {
+    const activeRow = Math.ceil((active + 1) / c.ITEMS_PER_ROW)
+    
     return items.map((_, i) => {
-      const activeRow = Math.ceil((active + 1) / c.ITEMS_PER_ROW)
       const currentRow = Math.ceil((i + 1) / c.ITEMS_PER_ROW)
 
       if (active === -1 || activeRow !== currentRow) {
