@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  --font-size-h1: 28px;
+  --font-size-h2: 24px;
+  --font-size-h3: 20px;
+  --color-text: #10171E;
+  --color-white: #fff;
+  --color-silver-1: #F0F4F8;
+  --color-silver-2: #D9E2EC;
+  --color-silver-3: #BCCCDC;
+  --color-silver-4: #9FB3C8;
+  --color-silver-5: #829AB1;
+  --font-family: Helvetica, sans-serif;
+
+  color: var(--color-text);
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  background: var(--color-silver-2);
+}
+
+.app-body {
+  overflow-y: hidden;
+  width: 100%;
+}
+
+.app-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 48px 16px;
+}
+
+.show-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show-list > .column {
+  flex-shrink: 0;
+  width: 25%;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 80px;
+}
+
+.show-item-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.show-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.show-item > .thumbnail {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.show-item > .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+}
