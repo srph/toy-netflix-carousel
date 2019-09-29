@@ -1,7 +1,7 @@
 ## toy-netflix-carousel
 Coding exercise implementing Netflix's hover effect trademark on its carousel. [View demo](https://github.com/srph/toy-netflix-carousel).
 
-![Preview](preview.gif)
+![Preview](preview.jpg)
 
 ### Setup
 - Install the dependencies
