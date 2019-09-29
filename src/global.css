@@ -27,9 +27,9 @@ html, body {
 }
 
 .app-container {
-  max-width: 1024px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding: 48px 16px;
+  padding: 80px 16px;
 }
 
 .show-list {
@@ -39,7 +39,7 @@ html, body {
 
 .show-list > .column {
   flex-shrink: 0;
-  width: 25%;
+  width: 12.5%;
   padding-left: 4px;
   padding-right: 4px;
   margin-bottom: 80px;
