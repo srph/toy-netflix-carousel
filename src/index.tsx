@@ -9,7 +9,7 @@ import thumbnail from './assets/thumbnail.jpg'
 
 const c = {
   ITEMS_PER_ROW: 8,
-  SLIDE_WIDTH: 175,
+  SLIDE_WIDTH: 225,
   SLIDE_HOVER_WIDTH: 300,
   SLIDE_MARGIN: 4
 }
