@@ -39,11 +39,11 @@ function App() {
       const translate = (c.SLIDE_HOVER_WIDTH - c.SLIDE_WIDTH) / 2
       const offset = (() => {
         if (activeColumn === 0) {
-          return (c.SLIDE_HOVER_WIDTH / 4) - (c.SLIDE_MARGIN * 4)
+          return (c.SLIDE_HOVER_WIDTH - c.SLIDE_WIDTH) / 2
         }
         
         if (activeColumn === c.ITEMS_PER_ROW - 1) {
-          return -((c.SLIDE_HOVER_WIDTH / 4) - (c.SLIDE_MARGIN * 4))
+          return -((c.SLIDE_HOVER_WIDTH - c.SLIDE_WIDTH) / 2)
         }
         
         return 0
